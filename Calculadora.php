@@ -1,16 +1,20 @@
 <?php
 class calculadora{
     public function sumar($a,$b){
-        echo ("La suma de $a y $b = "), $a+$b,"</br>";
+        //echo ("La suma de $a y $b = "), $a+$b,"</br>";
+        return  $a+$b;
     }
     public function resta($a,$b){
-        echo ("La resta de $a y $b = "), $a-$b,"</br>";
+        //echo ("La resta de $a y $b = "), $a-$b,"</br>";
+        return  $a-$b;
     }
     public function division($a,$b){
-        echo ("La division de $a y $b = "), $a/$b,"</br>";
+        //echo ("La division de $a y $b = "), $a/$b,"</br>";
+        return  $a*$b;
     }
     public function multiplicacion($a,$b){
-        echo ("La multiplicacion de $a y $b = "), $a*$b,"</br>";
+        //echo ("La multiplicacion de $a y $b = "), $a*$b,"</br>";
+        return  $a/$b;
     }
 }
 
