@@ -1,6 +1,6 @@
 <?php
 
-//use Calculadora;
+use Calculadora;
 use PHPUnit\Framework\TestCase;
 
 final class CalculadoraTest extends TestCase{
