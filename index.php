@@ -1,5 +1,5 @@
 <?php
-use PHPUnit/Framework/TestCase;
+//use PHPUnit/Framework/TestCase;
 
 class calculadora{
     public function sumar($a,$b){
@@ -23,11 +23,11 @@ $calculadora->division(2,3);
 $calculadora->multiplicacion(2,3);
 
 
-final class CalculadoraTest extends TestCase{
+/*final class CalculadoraTest extends TestCase{
     public function Tests(){
         $this->assertsEquals(
             $this->assertsEquals(5,$calculadora->sumar(2,3));
         );
     }
-}
+}*/
 ?>
