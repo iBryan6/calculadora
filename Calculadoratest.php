@@ -23,7 +23,4 @@ final class CalculadoraTests extends TestCase{
     }
 }?>
 
-    <!--        LINECODE BASH: vendor/bin/phpunit Calculadoratest.php
-        composer require --dev phpunit/phpunit ^7
-        composer dump-autoload -o
-        composer update-->
+
