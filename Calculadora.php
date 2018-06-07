@@ -10,11 +10,11 @@ class calculadora{
     }
     public function division($a,$b){
         //echo ("La division de $a y $b = "), $a/$b,"</br>";
-        return  $a*$b;
+        return  $a/$b;
     }
     public function multiplicacion($a,$b){
         //echo ("La multiplicacion de $a y $b = "), $a*$b,"</br>";
-        return  $a/$b;
+        return  $a*$b;
     }
 }
 
